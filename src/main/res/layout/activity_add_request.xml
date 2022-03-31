@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".Add_Request">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="60dp"
+                android:height="40dp"
+                android:textColor="@color/black"
+                android:background="@color/teal_200"
+                android:paddingStart="12dp"
+                android:text="Add  Request Details!"
+                android:textFontWeight="75"
+                android:textSize="20sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/Village"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Village name"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/e1"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Village name"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/Tahsil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tahsil name"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/e2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Tahsil name"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/dist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="District name"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/e3"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter District name"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/Post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Post name"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/e4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Post name"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/sarpanch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sarpanch name"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/e5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:hint="Name of Sarpanch of Village"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/HOJ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Head of Justice name"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/e6"
+                android:layout_width="match_parent"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:hint="Name Head of Justice"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/population"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Population"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/e7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Population of Village"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Male population"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/e8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Male Population"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/Female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Female Population"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/e9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="Female Population"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/Famous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Famous Attraction"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/e10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Famous Attraction"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/Popular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Popular For"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/e11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Popular for"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="PINCODE"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/e12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="PINCODE"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Area Under Farming"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:background="#FFEB3B"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:id="@+id/E13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Area Under Farming"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"/>
+
+            //Add photo
+
+
+            <LinearLayout
+                android:id="@+id/layout_button"
+                android:orientation="horizontal"
+                android:layout_alignParentTop="true"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--Button for choosing image from gallery-->
+
+
+                <ImageView
+                    android:id="@+id/image_view"
+                    android:layout_width="300dp"
+
+                    android:layout_height="300dp" />
+
+
+
+            </LinearLayout>
+
+            <!--Image View for showing image chosen from gallery-->
+
+
+            <Button
+                android:id="@+id/btnbrowse"
+                android:layout_width="124dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:background="#03A9F4"
+                android:text="Accpet Request" />
+
+            <Button
+                android:id="@+id/btnupload"
+                android:layout_width="164dp"
+                android:textSize="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="10dp"
+                android:background="#03A9F4"
+                android:textColor="@color/black"
+                android:text="Delete Request" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
